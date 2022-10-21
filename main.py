@@ -38,7 +38,7 @@ print("\n\n\n")
 def imc():
     weight=int(input("Introduzca su peso en kilogramos(Kg):"))
     height=round(float(input("Introduzca su altura en metros(m):")),  2)
-    IMC= weight / (height^2)
+    IMC= weight / (height**2)
     return IMC
 
 
