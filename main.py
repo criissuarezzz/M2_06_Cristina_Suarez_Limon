@@ -18,7 +18,7 @@ numeros=[]
 def lee_numero(numeros):
     for x in range (3):
         numeros.append(int(input("Escribe un número:")))
-        print(numeros)
+    print(numeros)
 lee_numero(numeros)
 print("\n")
 def mayor():
